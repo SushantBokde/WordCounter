@@ -54,7 +54,8 @@ public class WordCounterTest {
 		assertSame(1, counter.getWordCount("Time"));
 	}
 	
-	//@Test
+	//@Test This test would use mock translator using Mockito framework and test for adding same word in two languages.
+	//However ,could not do it due to lack of time.
 	public void testAddWordWithAlphabeticInputWithMockTranslator() {
 		WordCounter counter = new WordCounter();
 		counter.addWord("flower");
